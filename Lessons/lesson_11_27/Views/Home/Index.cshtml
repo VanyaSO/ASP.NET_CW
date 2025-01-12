@@ -1,0 +1,135 @@
+﻿@using lesson_11_27.Controllers
+@model List<string>
+
+@{
+    List<double> prices = new List<double>() { 123.00, 154.0, 65, 25, 85.01, 25 };
+
+    double minPrice = prices.Min();
+
+    @:<p>Min prise: @(minPrice))</p>
+
+    if (prices.Count(e => e == 25.0) >= 2)
+    {
+        int firstIndex = prices.IndexOf(minPrice) + 1;
+        int lastIndex = prices.LastIndexOf(minPrice) + 1;
+        
+        @:{
+            <p>Min prise first:@(firstIndex)</p>
+            <p>Min prise last:@(lastIndex)</p> 
+        }   
+    }
+}
+
+<p>@Power(2,4)</p>
+
+@functions
+{
+    public static int Power(int number, int power)
+    {
+        int result = 1;
+        for (int i = 1; i <= power; i++)
+            result *= number;
+
+        return result;
+    }
+}
+
+
+@foreach (var str in Model)
+{
+    <p>@str</p>  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* $1$ @model User #1# *@
+@* *@
+@* @{ *@
+@*     Layout = null; *@
+@* } *@
+@* *@
+@* $1$#1# *@
+@* @{ *@
+@*     int a = 10, b = 11; *@
+@*      *@
+@*     @:<p>@(a > b ? a : b)</p> *@
+@* } *@
+@* *@
+@* $1$----------------#1# *@
+@* @{ *@
+@*     string? welcome = "Hello"; *@
+@*     bool isEnable = false; *@
+@* } *@
+@* *@
+@* <button disabled="@isEnable"></button> *@
+@* <p>@(welcome ?? "Default")</p> *@
+@* *@
+@* @if (isEnable) *@
+@* { *@
+@*     <p>Добро пожаловать</p> *@
+@* } *@
+@* else *@
+@* { *@
+@*     <p>@welcome</p> *@
+@* } *@
+@* *@
+@* $1$----------------#1# *@
+@* @GetNum(5) *@
+@* @functions *@
+@* { *@
+@*     public int GetNum(int n) *@
+@*     { *@
+@*         int result = 1; *@
+@*         return result; *@
+@*     } *@
+@* } *@
+@* *@
+@* @ViewData["Welcome"] *@
+@* *@
+@* *@
+@* $1$----------------#1# *@
+@* *@
+@* $1$ @{ #1# *@
+@* $1$     var user = ViewData["User"] as User; #1# *@
+@* $1$ } #1# *@
+@* $1$ <br> #1# *@
+@* $1$ @user.Name #1# *@
+@* *@
+@* <br> *@
+@* @ViewData["About"]; *@
+@* *@
+@* <br> *@
+@* @ViewBag.Name; *@
+@* *@
+@* *@
+@* *@
+@* $1$ Model #1# *@
+@* $1$----------------#1# *@
+@* @model List<User> *@
+@* $1$ #1# *@
+@* $1$ @Model.Name #1# *@
+@* *@
+@* <ul> *@
+@*     @foreach (var user in Model) *@
+@*     { *@
+@*         <li>@user.Name</li> *@
+@*     } *@
+@* </ul> *@
+@* *@
+@* @section Modals { *@
+@*     <div class="modal">text</div> *@
+@* } *@

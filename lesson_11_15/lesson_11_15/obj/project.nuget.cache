@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MdlIIZK6IWZTYUvrnMR2rMuUV0GqGM9onLeuAUW5Xd6JMf0BwsvRlCaWseCRl2hwKv5wMk747O00d2ibuyqkUw==",
+  "success": true,
+  "projectFilePath": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/lesson_11_15/lesson_11_15/lesson_11_15.csproj",
+  "expectedPackageFiles": [
+    "/Users/ivanushachov/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/ivanushachov/.nuget/packages/humanizer.core.ru/2.14.1/humanizer.core.ru.2.14.1.nupkg.sha512"
+  ],
+  "logs": []
+}

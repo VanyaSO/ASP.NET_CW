@@ -1,0 +1,86 @@
+@model List<User>
+
+
+<users Users="@Model"></users>
+
+@* @section Scripts *@
+@* { *@
+@* <script asp-src-include="~/js/*Table/*.js"></script> *@
+@* } *@
+@* *@
+@* <form asp-action="Register" asp-controller="Home" asp-antiforgery="true"> *@
+@*     <div> *@
+@*         <div> *@
+@*             <label asp-for="Name"></label> *@
+@*             <input type="text" asp-for="Name" /> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="Age"></label> *@
+@*             <input asp-for="Age" /> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="Email"></label> *@
+@*             <input asp-for="Email" /> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="Password"></label> *@
+@*             <input asp-for="Password" /> *@
+@*         </div> *@
+@*         <div> *@
+@*             <input type="submit" value="Register" /> *@
+@*         </div> *@
+@*     </div> *@
+@* </form> *@
+
+
+@* <form asp-action="Create" asp-controller="Home" asp-antiforgery="true" asp-route-Id="1"> *@
+@*     <div> *@
+@*         <div> *@
+@*             <label asp-for="Name"></label> *@
+@*             <input type="text" asp-for="Name" /> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="Price"></label> *@
+@*             <input asp-for="Price" /> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="CompanyId"></label> *@
+@*             <select asp-for="CompanyId" asp-items="ViewBag.Companies"> *@
+@*                 <option selected disabled>Выберите компанию</option> *@
+@*             </select> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="Hobby"></label> *@
+@*             <textarea asp-for="Hobby"></textarea> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="DayTime"></label> *@
+@*             <select asp-for="DayTime" asp-items="Html.GetEnumSelectList<DayTime>()"></select> *@
+@*         </div> *@
+@*         <div> *@
+@*             <label asp-for="DayTime"></label> *@
+@*             <select asp-for="DayTime" asp-items="@new SelectList(Enum.GetNames(typeof(DayTime)))"></select> *@
+@*         </div> *@
+@*         <div> *@
+@*             <input type="submit" value="Save" /> *@
+@*         </div> *@
+@*     </div> *@
+@* </form> *@
+@* *@
+@* <a asp-controller="Home" asp-action="Index" asp-route-name="Alex" asp-route-age="20">Link</a> *@
+@* asp-protoocol="https" asp-fragment="block1" *@
+
+
+@* expires-after="@TimeSpan.FromSeconds(5)" *@
+@* expires-on="@DateTime.Now.AddMinutes(1)" *@
+@* <cache expires-sliding="@TimeSpan.FromMinutes(1)" vary-by-user="true"  *@
+@*        vary-by-query="name, age"  *@
+@*        very-by-header="User-Agent"> *@
+@*     <p>Current time: @DateTime.Now</p> *@
+@* </cache> *@
+
+
+@* <timer></timer> *@
+
+
+

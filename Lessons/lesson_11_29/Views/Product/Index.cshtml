@@ -1,0 +1,25 @@
+@model IEnumerable<lesson_11_29.ViewModels.ProductViewModel>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    @foreach (var product in Model)
+    {
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">@product.Name</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$@product.Price</h1>
+                    <p>$@product.Count</p>
+                    <div class="d-flex">
+                        <p>@product.QuantityInCart</p>
+                        <form action="/product/index" method="post">
+                            <input type="number" name="id" value="@product.Id" hidden>
+                            <button type="submit" class="w-100 btn btn-lg btn-outline-primary">Buy</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }    
+</div>

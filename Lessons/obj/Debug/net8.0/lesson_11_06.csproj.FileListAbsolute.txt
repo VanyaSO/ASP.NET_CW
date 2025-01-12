@@ -1,0 +1,7 @@
+/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/obj/Debug/net8.0/lesson_11_06.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/obj/Debug/net8.0/lesson_11_06.AssemblyInfoInputs.cache
+/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/obj/Debug/net8.0/lesson_11_06.AssemblyInfo.cs
+/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/obj/Debug/net8.0/lesson_11_06.csproj.CoreCompileInputs.cache
+/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/obj/Debug/net8.0/lesson_11_06.MvcApplicationPartsAssemblyInfo.cache
+/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/obj/Debug/net8.0/lesson_11_06.RazorAssemblyInfo.cache
+/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/obj/Debug/net8.0/lesson_11_06.RazorAssemblyInfo.cs

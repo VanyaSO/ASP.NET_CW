@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "6lpNQ4LhApifg3+lqvIrUkBEXGHx4ftmhogP68lnhGk=",
+  "Source": "lesson_11_06",
+  "BasePath": "_content/lesson_11_06",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "lesson_11_06/wwwroot",
+      "Source": "lesson_11_06",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/lesson_11_06/wwwroot/",
+      "BasePath": "_content/lesson_11_06",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/lesson_11_06/wwwroot/img/1.png",
+      "SourceId": "lesson_11_06",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/lesson_11_06/wwwroot/",
+      "BasePath": "_content/lesson_11_06",
+      "RelativePath": "img/1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/1.png"
+    },
+    {
+      "Identity": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/lesson_11_06/wwwroot/index.html",
+      "SourceId": "lesson_11_06",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/Lessons/lesson_11_06/wwwroot/",
+      "BasePath": "_content/lesson_11_06",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}

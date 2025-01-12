@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "lhXlux9X9dttYPf6SHhO6XZNErzYTncFJVP/bCYo9Eo=",
+  "Source": "lesson_11_08",
+  "BasePath": "_content/lesson_11_08",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "lesson_11_08/wwwroot",
+      "Source": "lesson_11_08",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/lesson_11_08/lesson_11_08/wwwroot/",
+      "BasePath": "_content/lesson_11_08",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/lesson_11_08/lesson_11_08/wwwroot/index.html",
+      "SourceId": "lesson_11_08",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_CW/lesson_11_08/lesson_11_08/wwwroot/",
+      "BasePath": "_content/lesson_11_08",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
